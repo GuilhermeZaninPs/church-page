@@ -1,0 +1,24 @@
+.dropdown {
+    background-color: white;
+}
+
+.dropdownBtn {
+    padding: 0;
+    margin: 0 !important;
+}
+.dropdownBtn > div > button {
+    background-color: white !important;
+    color: black;
+}
+.dropdownBtn > div > button > span {
+    padding-right: 0;
+    font-size: 11.5pt;
+
+}
+.dropdown > div > ul > li:hover  {
+    background-color: white;
+    text-decoration: underline;
+    text-decoration-color: #127369;
+    text-underline-offset: 4px;
+
+}
