@@ -82,7 +82,7 @@ export default function Header() {
                   <Link href="/study">Estudos bíblicos</Link>
                 </li>
                 <li className="text-black hover:underline underline-offset-4 decoration-[#127369]">
-                  <Link href="/galery">Galeria</Link>
+                  <Link href="/#" onClick={() => alert('Está página estará disponível em breve!')}>Galeria</Link>
                 </li>
               </ul>
             </div>
