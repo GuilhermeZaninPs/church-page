@@ -4,14 +4,18 @@
 
 .dropdownBtn {
     padding: 0;
-    margin: 0 !important;
+    margin: 20px 0 -5px 0 !important;
+    text-align: left;
+    
 }
 .dropdownBtn > div > button {
     background-color: white !important;
     color: black;
+    padding: 0 !important;
+
 }
 .dropdownBtn > div > button > span {
-    padding-right: 0;
+    padding: 0 !important;
     font-size: 11.5pt;
 
 }
@@ -22,3 +26,24 @@
     text-underline-offset: 4px;
 
 }
+
+button:hover .bg-slide {
+    transform: translateX(0);
+  }
+  
+  .bg-slide {
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+  }
+  
+  @media screen and (min-width: 767px) {
+    .dropdownBtn {
+        margin: 0 !important;
+    }
+    .dropdownBtn > div > button {
+        padding: 0.5rem 1rem ;
+    }
+    .dropdownBtn > div > button > span {
+        padding: 0.5rem 0 0.5rem 1rem !important;
+    }
+  }

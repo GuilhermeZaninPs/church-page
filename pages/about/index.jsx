@@ -40,8 +40,8 @@ export const About = () => {
         <div className="w-full mt-[2%]">
           <h1 className="text-[26pt] my-[4%] text-center underline-offset-4 underline decoration-[#127369]">Nossos líderes</h1>
           <div className=" grid grid-cols-1 justify-items-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
-            <div className="w-full max-w-xs bg-white rounded-lg shadow-lg">
-              <div className="flex flex-col items-center py-10">
+            <div className="w-full max-w-xs bg-white ">
+              <div className="flex flex-col items-center py-10 rounded-lg shadow-lg">
                 <Image
                   className="w-24 h-24 mb-3 rounded-full shadow-lg"
                   src="/imgTest.jpg"
@@ -56,17 +56,17 @@ export const About = () => {
                   Pastor
                 </span>
                 <div className="flex flex-col mt-4 space-x-3 md:mt-6">
-                  <span className="items-center px-4 py-2 mb-3 text-sm font-medium text-center text-white bg-[#127369] rounded-lg">
+                  {/* <span className="items-center px-4 py-2 mb-3 text-sm font-medium text-center text-white bg-[#127369] rounded-lg">
                     +55 777 777 7777
-                  </span>
-                  <span className="items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg">
+                  </span> */}
+                  <span className="items-center px-4 py-2 text-sm font-medium text-center text-white bg-[#127369] border border-gray-300 rounded-lg">
                     emaildopastor@gmail.com
                   </span>
                 </div>
               </div>
             </div>
-            <div className="w-full max-w-xs bg-white rounded-lg shadow-lg">
-              <div className="flex flex-col items-center py-10">
+            <div className="w-full max-w-xs bg-white ">
+              <div className="flex flex-col items-center py-10 rounded-lg shadow-lg">
                 <Image
                   className="w-24 h-24 mb-3 rounded-full shadow-lg"
                   src="/imgTest.jpg"
@@ -80,18 +80,11 @@ export const About = () => {
                 <span className="text-sm text-gray-500 dark:text-gray-400">
                   Anciã
                 </span>
-                <div className="flex flex-col mt-4 space-x-3 md:mt-6">
-                  <span className="items-center px-4 py-2 mb-3 text-sm font-medium text-center text-white bg-[#127369] rounded-lg">
-                    +55 777 777 7777
-                  </span>
-                  <span className="items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg">
-                    emaildoanciao@gmail.com
-                  </span>
-                </div>
+                
               </div>
             </div>
-            <div className="w-full max-w-xs bg-white rounded-lg shadow-lg">
-              <div className="flex flex-col items-center py-10">
+            <div className="w-full max-w-xs bg-white ">
+              <div className="flex flex-col items-center py-10 rounded-lg shadow-lg">
                 <Image
                   className="w-24 h-24 mb-3 rounded-full shadow-lg"
                   src="/imgTest.jpg"
@@ -105,18 +98,11 @@ export const About = () => {
                 <span className="text-sm text-gray-500 dark:text-gray-400">
                   Ancião
                 </span>
-                <div className="flex flex-col mt-4 space-x-3 md:mt-6">
-                  <span className="items-center px-4 py-2 mb-3 text-sm font-medium text-center text-white bg-[#127369] rounded-lg ">
-                    +55 777 777 7777
-                  </span>
-                  <span className="items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg ">
-                    emaildopastor@gmail.com
-                  </span>
-                </div>
+                
               </div>
             </div>
-            <div className="w-full max-w-xs bg-white rounded-lg shadow-lg">
-              <div className="flex flex-col items-center py-10">
+            <div className="w-full max-w-xs bg-white ">
+              <div className="flex flex-col items-center py-10 rounded-lg shadow-lg">
                 <Image
                   className="w-24 h-24 mb-3 rounded-full shadow-lg"
                   src="/imgTest.jpg"
@@ -130,18 +116,11 @@ export const About = () => {
                 <span className="text-sm text-gray-500 dark:text-gray-400">
                   Anciã
                 </span>
-                <div className="flex flex-col mt-4 space-x-3 md:mt-6">
-                  <span className="items-center px-4 py-2 mb-3 text-sm font-medium text-center text-white bg-[#127369] rounded-lg ">
-                    +55 777 777 7777
-                  </span>
-                  <span className="items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg ">
-                    emaildopastor@gmail.com
-                  </span>
-                </div>
+                
               </div>
             </div>
-            <div className="w-full max-w-xs bg-white rounded-lg shadow-lg">
-              <div className="flex flex-col items-center py-10">
+            <div className="w-full max-w-xs bg-white ">
+              <div className="flex flex-col items-center py-10 rounded-lg shadow-lg">
                 <Image
                   className="w-24 h-24 mb-3 rounded-full shadow-lg"
                   src="/imgTest.jpg"
@@ -155,14 +134,7 @@ export const About = () => {
                 <span className="text-sm text-gray-500 dark:text-gray-400">
                   Secretária
                 </span>
-                <div className="flex flex-col mt-4 space-x-3 md:mt-6">
-                  <span className="items-center px-4 py-2 mb-3 text-sm font-medium text-center text-white bg-[#127369] rounded-lg ">
-                    +55 777 777 7777
-                  </span>
-                  <span className="items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg ">
-                    emaildopastor@gmail.com
-                  </span>
-                </div>
+                
               </div>
             </div>
           </div>

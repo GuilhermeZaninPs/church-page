@@ -13,9 +13,9 @@ export default function Header() {
   return (
     <div>
       <nav className="w-full bg-white-800 shadow">
-        <div className="justify-between px-4 mx-auto lg:max-w-full md:items-center md:flex md:px-8">
+        <div className="justify-between mx-auto lg:max-w-full md:items-center md:flex md:px-8">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <div className="flex items-center px-4 justify-between py-3 md:py-5 md:block">
               <Link href="/">
                 <Image src="/logo.png" width={150} height={100} alt="Logo" />
               </Link>
@@ -58,8 +58,8 @@ export default function Header() {
             </div>
           </div>
           <div>
-            <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+            <div 
+              className={`fixed top-[70px] z-50 w-full bg-white md:static md:flex-1 md:justify-self-center px-4 md:pb-3 mt-8 md:block md:pb-0 md:mt-0  ${
                 navbar ? "block" : "hidden"
               }`}
             >
@@ -67,10 +67,10 @@ export default function Header() {
                 <li className="text-black hover:underline underline-offset-4 decoration-[#127369]">
                   <Link href="/">Home</Link>
                 </li>
-                <li className={styles.dropdownBtn} /*" dropdown-btn text-black hover:underline underline-offset-4 decoration-[#127369] "*/>
+                <li className={styles.dropdownBtn}>
                   <Dropdown label="Sobre nós" className={styles.dropdown}>
                     <Dropdown.Item><Link href="/about">Quem somos</Link></Dropdown.Item>
-                    <Dropdown.Item><Link href="#" onClick={() => alert('Está página estará disponível em breve!')}>Desbravadores e Aventureiros</Link></Dropdown.Item>
+                    {/* <Dropdown.Item><Link href="#_" onClick={() => alert('Está página estará disponível em breve!')}>Desbravadores e Aventureiros</Link></Dropdown.Item> */}
                     <Dropdown.Item><Link href="contact">Contato</Link></Dropdown.Item>
                     {/* <Dropdown.Item><Link href="">Sign out</Link></Dropdown.Item> */}
                   </Dropdown>
@@ -82,7 +82,7 @@ export default function Header() {
                   <Link href="/study">Estudos bíblicos</Link>
                 </li>
                 <li className="text-black hover:underline underline-offset-4 decoration-[#127369]">
-                  <Link href="/#" onClick={() => alert('Está página estará disponível em breve!')}>Galeria</Link>
+                  <Link href="#_" onClick={() => alert('Está página estará disponível em breve!')}>Galeria</Link>
                 </li>
               </ul>
             </div>
